@@ -9,3 +9,12 @@ let year = date.getFullYear();
 // This arrangement can be altered based on how we want the date's format to appear.
 let currentDate = '${day}-${month}-${year}';
 console.log(currentDate); // "17-6-2022"
+
+let localDate = new Date().toLocaleDateString();
+console.log(localDate); // 6/17/2022
+
+const dateToday = new Date();
+// var copyrightDate = dateToday.getFullYear()+'-'+(dateToday.getMonth()+1)+'-'+dateToday.getDate();
+var copyrightDate = dateToday.getFullYear();
+document.getElementById("copyrightDate").innerHTML = copyrightDate;
+
