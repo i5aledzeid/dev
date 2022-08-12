@@ -1,6 +1,5 @@
 // Fri Jun 17 2022 11:27:28 GMT+0100 (British Summer Time)
 // const date = new Date();
-// print(date);
 
 // let day = date.getDate();
 // let month = date.getMonth() + 1;
