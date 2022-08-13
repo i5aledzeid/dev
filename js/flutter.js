@@ -1,3 +1,5 @@
+
+/////////////////////////////////// DATE FUNCTION /////////////////////////////////////////
 // Fri Jun 17 2022 11:27:28 GMT+0100 (British Summer Time)
 // const date = new Date();
 
@@ -16,4 +18,5 @@ const dateToday = new Date();
 // var copyrightDate = dateToday.getFullYear()+'-'+(dateToday.getMonth()+1)+'-'+dateToday.getDate();
 var copyrightDate = dateToday.getFullYear();
 document.getElementById("copyrightDate").innerHTML = copyrightDate;
+/////////////////////////////////// DATE FUNCTION /////////////////////////////////////////
 
