@@ -21,4 +21,15 @@ body {
     width: 80vw;
     height: 80vh;
     margin: auto;
+    padding: 20px;
+    border-radius: 16px;
+    display: grid;
+}
+
+.image {
+    background-color: aquamarine;
+}
+
+.filters {
+    background-color: azure;
 }
