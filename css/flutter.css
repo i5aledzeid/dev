@@ -10,8 +10,15 @@ a {
 
 body {
     background-color: #333;
+    /* Same like margin: auto;
+    display: flex;
+    justify-content: center;
+    */
 }
 
 .container {
     background-color: #222;
+    width: 80vw;
+    height: 80vh;
+    margin: auto;
 }
